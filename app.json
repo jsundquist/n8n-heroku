@@ -43,7 +43,7 @@
         }
       },
       {
-        "plan": "papertrail:choklad"
+        "plan": "lumberyard:dev"
       }
     ]
   }
