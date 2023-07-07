@@ -6,7 +6,7 @@ WORKDIR /home/node/packages/cli
 ENTRYPOINT []
 
 RUN mkdir -p /.n8n
-RUN chown -R app:root /.n8n
+RUN chmod 777 /.n8n
 
 COPY ./entrypoint.sh /
 RUN chmod +x /entrypoint.sh
