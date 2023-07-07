@@ -37,10 +37,7 @@
     },
     "addons": [
       {
-        "plan": "postgres:dev",
-        "options": {
-          "version": "14"
-        }
+        "plan": "postgres:dev"
       },
       {
         "plan": "lumberyard:standard-0"
