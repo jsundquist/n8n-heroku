@@ -37,7 +37,7 @@
     },
     "addons": [
       {
-        "plan": "postgresql:dev",
+        "plan": "postgres:dev",
         "options": {
           "version": "14"
         }
