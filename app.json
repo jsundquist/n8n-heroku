@@ -37,13 +37,13 @@
     },
     "addons": [
       {
-        "plan": "heroku-postgresql",
+        "plan": "postgresql:dev",
         "options": {
           "version": "14"
         }
       },
       {
-        "plan": "lumberyard:dev"
+        "plan": "lumberyard:standard-0"
       }
     ]
   }
